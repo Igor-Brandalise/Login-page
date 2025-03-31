@@ -268,6 +268,9 @@
   .h-\[300px\] {
     height: 300px;
   }
+  .h-\[350px\] {
+    height: 350px;
+  }
   .h-\[400px\] {
     height: 400px;
   }
@@ -297,6 +300,9 @@
   }
   .w-110 {
     width: calc(var(--spacing) * 110);
+  }
+  .w-\[26em\] {
+    width: 26em;
   }
   .w-\[480px\] {
     width: 480px;
@@ -438,6 +444,9 @@
   .pt-10 {
     padding-top: calc(var(--spacing) * 10);
   }
+  .pr-1 {
+    padding-right: calc(var(--spacing) * 1);
+  }
   .pr-10 {
     padding-right: calc(var(--spacing) * 10);
   }
@@ -521,6 +530,14 @@
   .outline-none {
     --tw-outline-style: none;
     outline-style: none;
+  }
+  .\*\:\*\*\:border {
+    :is(& > *) {
+      :is(& *) {
+        border-style: var(--tw-border-style);
+        border-width: 1px;
+      }
+    }
   }
 }
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
