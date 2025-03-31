@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="/src/output.css">
+
+    <link rel="shortcut icon" href="imagem/bx-refresh.svg" type="image/x-icon">
+</head>
+
+<body class="bg-[url('/imagem/david-edelstein-N4DbvTUDikw-unsplash.jpg')] bg-cover bg-center bg-no-repeat flex justify-center items-center min-h-screen">
+
+    <main class="w-[500px] h-[300px] bg-transparent border-2 border-white border-opacity-20 rounded-xl backdrop-blur-sm " style="padding: 1.5em;">
+        <form action="" class="w-full">
+    
+            <h1 class="text-center text-3xl text-white mb-8">Login</h1>
+    
+            <!-- Username input field -->
+            <section class="w-full h-16 mt-8 relative">
+                <input type="email" placeholder="Username" required class="w-full h-full bg-transparent border-none outline-none my-2 border border-white border-opacity-20 rounded-4xl text-white text-base py-5 px-5 pr-11 placeholder-white">
+                <i class="absolute right-5 top-1/2 transform -translate-y-1/2 text-white">
+                    <box-icon name='user' color="white"></box-icon>
+                </i>
+            </section>
+    
+            <!-- Password input field -->
+            <section class="w-full h-16 mt-4 relative">
+                <input type="password" placeholder="Password" required class="w-full h-full bg-transparent border-none outline-none my-2 border border-white border-opacity-20 rounded-4xl text-white text-base py-5 px-5 pr-11 placeholder-white">
+                <i class="absolute right-5 top-1/2 transform -translate-y-1/2 text-white">
+                    <box-icon type='solid' name='lock' color="white"></box-icon>
+                </i>
+            </section>
+    
+            <!-- Login button -->
+            <button class="w-full h-11 bg-white border-none outline-none rounded-4xl text-base cursor-pointer font-semibold text-black mt-6">
+                Login
+            </button>
+    
+            <!-- Forgot password link -->
+            <section id="link" class="text-center mt-6">
+                <a href="#" class="text-white text-sm">Esqueceu a senha?</a>
+            </section>
+        </form>
+    </main>
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+
+</html>
